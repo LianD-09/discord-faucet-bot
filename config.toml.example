@@ -1,0 +1,16 @@
+[networks]
+    [networks.iliad-0]
+        binary          = "geth"
+        prefix          = "0x"
+        denomination    = "IP"
+        data_dir        = "$HOME/.story/geth/iliad"
+        chain_id        = "iliad-0"
+        node_url        = "$HOME/.story/geth/iliad/geth.ipc"
+        faucet_address  = "<your-address>"
+        daily_cap       = "1000" # max amount send in a day
+        amount_to_send  = "100" # each send
+
+[discord]
+    bot_token = "bot.token"
+    channels_to_listen = "channel1,channel2"
+    request_timeout    = "43200" # block time during requests
